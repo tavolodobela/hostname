@@ -6,6 +6,7 @@ metadata:
 spec:
   finalizers:
   - kubernetes
+
 ---
 apiVersion: apps/v1
 kind: Deployment
