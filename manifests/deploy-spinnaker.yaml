@@ -31,7 +31,7 @@ spec:
         version: v1
     spec:
       containers:
-      - image: sutoj/hostname:v1
+      - image: sutoj/hostname:v2
         imagePullPolicy: Always
         name: hostname
         resources: {}
