@@ -13,7 +13,7 @@ metadata:
   name: hostname
   namespace: staging
 spec:
-  replicas: 5
+  replicas: 4
   selector:
     matchLabels:
       app: hostname
