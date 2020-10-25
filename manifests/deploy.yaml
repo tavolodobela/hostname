@@ -7,7 +7,7 @@ spec:
   finalizers:
   - kubernetes
 ---
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hostname
@@ -30,7 +30,7 @@ spec:
         version: v1
     spec:
       containers:
-      - image: rstarmer/hostname:v1
+      - image: sutoj/hostname:v1
         imagePullPolicy: Always
         name: hostname
         resources: {}
